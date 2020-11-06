@@ -1,0 +1,438 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+  background: #ddeeda;
+  font-size: 20px;
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+
+.site-header{
+  background: #fff;
+  display: flex;
+  padding: 20px 20px;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 99;
+}
+
+.site-header ul :hover{
+  background-color:  #fff;
+}
+
+.gnav__menu a:hover {
+  color: red;
+}
+
+
+.site-logo img{
+  height: 40px;
+  width:auto;
+
+}
+
+
+.gnav__menu{
+  display: flex;
+}
+
+.gnav__menu__item{
+  margin-left: 20px;
+}
+
+.gnav__menu__item a{
+  color: #333;
+  text-decoration: none;
+}
+.gnav__menu__item  :hover{
+  background: #333:
+}
+.hero{
+  max-height: 380px;
+  overflow: hidden;
+}
+
+.hero img{
+  height: 500px;
+  width: 100%;
+}
+
+.content{
+  line-height: 1.6;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 800px;
+}
+
+.content p{
+  margin-bottom: 40px;
+}
+
+.pp{
+	position: relative; top: 10px;
+}
+
+.title{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+	position: relative; top: 10px;
+	padding-left: 100px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.maegaki{
+      padding-top:10px;
+    position: relative; top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 28px;
+}
+
+.maegaki2{
+    position: relative; top: 10px;
+  padding-top:20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 28px;
+}
+
+.maegaki3{
+    position: relative; top: 10px;
+  padding-top:20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 28px;
+}
+
+.maegaki4{
+    position: relative; top: 10px;
+  padding-top:20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 28px;
+}
+
+.badpoint{
+    list-style-type: none;
+    position: relative; top: 15px;
+    padding-left: 120px;
+    padding-right: 100px;
+    line-height: 28px;
+    padding-bottom:  15px;
+}
+
+.hutomozi{
+    font-weight: bolder;
+}
+
+.akamozi{
+    color: red;
+    font-weight: bolder;
+}
+
+.hihan{
+    color: blue;
+    font-weight: bolder;
+}
+
+.oremozi{
+    color:#FF6600;
+    font-weight: bolder;
+}
+
+.mokuzi{
+    text-decoration: underline;
+    text-decoration-color:#FF6600;
+  position: relative; top: 10px;
+    padding-left: 100px;
+  padding-top: 30px;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.itiran a{
+	padding-top:5px;
+	position: relative; top: 10px;
+	text-decoration: none;
+}
+.itiran a:visited{
+  color: #000;
+}
+.itiran a:hover{
+	color: red;
+}
+
+.itiran{
+	position: relative; top: 10px;
+	padding-bottom: 5px;
+  padding-left: 100px;
+
+}
+
+.soft1{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+  position: relative; top: 10px;
+	padding-left: 100px;
+  padding-top: 30px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.soft2{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+  position: relative; top: 10px;
+	padding-left: 100px;
+  padding-top: 30px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.soft3{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+  position: relative; top: 10px;
+	padding-left: 100px;
+  padding-top: 30px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.soft4{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+  position: relative; top: 10px;
+	padding-left: 100px;
+  padding-top: 30px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.soft5{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+  position: relative; top: 10px;
+	padding-left: 100px;
+  padding-top: 30px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.soft6{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+  position: relative; top: 10px;
+	padding-left: 100px;
+  padding-top: 30px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.mokuzi{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+  position: relative; top: 10px;
+	padding-left: 100px;
+  padding-top: 30px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.itiran{
+	position: relative; top: 10px;
+	padding-bottom: 5px;
+  padding-left: 100px;
+}
+
+.defender{
+	position: relative; top: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.soft_img{
+	display: inline-block;
+  vertical-align: top;
+}
+
+.text{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.text_leftspace{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 30px;
+	padding-left: 100px;
+}
+
+div.eset p{
+	display: table-cell;
+	vertical-align: top;
+	margin: 0;
+}
+
+.eset{
+	position: relative; top: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.item{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+	padding-top: 5px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.honbun{
+	padding-left: 8px;
+	padding-top: 25px;
+	line-height: 28px;
+}
+
+.title3{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.honbun2{
+	padding-left: 8px;
+	padding-top: 25px;
+	line-height: 28px;
+}
+
+.title4{
+	text-decoration: underline;
+	text-decoration-color:#FF6600;
+	padding-top: 5px;
+	padding-left: 310px;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.target{
+	padding-top: 5px;
+	padding-left: 400px;
+}
+
+.souhyou{
+	padding-top: 5px;
+	padding-left: 400px;
+}
+
+.ESET{
+	position: relative; top: 10px;
+	padding-bottom: 5px;
+  padding-left: 100px;
+}
+
+.マカフィー{
+	position: relative; top: 10px;
+	padding-bottom: 5px;
+  padding-left: 100px;
+}
+
+.カスペルスキー{
+	position: relative; top: 10px;
+	padding-bottom: 5px;
+  padding-left: 100px;
+}
+
+.ウイルスバスター{
+	position: relative; top: 10px;
+	padding-bottom: 5px;
+  padding-left: 100px;
+}
+
+.ノートン{
+	position: relative; top: 10px;
+	padding-bottom: 5px;
+  padding-left: 100px;
+}
+
+#page_top{
+  width: 100px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #ef3f98;
+  opacity: 0.6;
+}
+
+
+#page_top{
+  width: 100px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #ef3f98;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -25px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.site-footer{
+  background: #333;
+  padding: 10px 0;
+}
+
+
+
+.copyright{
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
