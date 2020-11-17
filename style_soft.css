@@ -125,44 +125,38 @@ body{
 }
 
 .maegaki{
-      padding-top:10px;
+    padding-top:10px;
     position: relative; top: 15px;
     padding-left: 100px;
     padding-right: 100px;
     line-height: 28px;
 }
 
-.maegaki2{
-    position: relative; top: 10px;
-  padding-top:20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    line-height: 28px;
+/*soft text*/
+.st{
+	position: relative; top: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 100px;
+	padding-right: 100px;
+	word-wrap: break-all;
 }
 
-.maegaki3{
-    position: relative; top: 10px;
-  padding-top:20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    line-height: 28px;
-}
-
-.maegaki4{
-    position: relative; top: 10px;
-  padding-top:20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    line-height: 28px;
-}
-
-.badpoint{
+.point{
     list-style-type: none;
     position: relative; top: 15px;
     padding-left: 120px;
     padding-right: 100px;
     line-height: 28px;
     padding-bottom:  15px;
+}
+
+.point2{
+  list-style-type: none;
+  position: relative; top: 5px;
+  padding-right: 100px;
+  line-height: 28px;
+  padding-bottom:  15px;
 }
 
 .hutomozi{
@@ -174,13 +168,8 @@ body{
     font-weight: bolder;
 }
 
-.hihan{
+.aomozi{
     color: blue;
-    font-weight: bolder;
-}
-
-.oremozi{
-    color:#FF6600;
     font-weight: bolder;
 }
 
@@ -304,15 +293,16 @@ body{
 
 .text{
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	line-height: 30px;
+  width: 60vw;
+  overflow: hidden;
 }
 
-.text_leftspace{
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 30px;
-	padding-left: 100px;
+.review{
+  display: inline-block;
+  vertical-align: top;
+  line-height: 30px;
 }
 
 div.eset p{
@@ -330,7 +320,7 @@ div.eset p{
 }
 
 .item{
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	text-decoration-color:#FF6600;
 	padding-top: 5px;
 	font-size: 120%;
@@ -468,7 +458,9 @@ div.eset p{
   padding: 40px;
 }
 
-
+html, body {
+  scroll-padding-top: 70px;
+}
 
 .copyright{
   color: #fff;
